@@ -4,8 +4,8 @@ Let your AI agent make images, video and GIFs in [Cubric Studio](https://cubric.
 desktop app on your computer. Ask Claude, Codex or Antigravity for "an image of a red bicycle in
 a new project" and it lands in your gallery as a real card, with its prompt and settings saved.
 
-You need **Cubric Studio 1.7 or newer**, installed and **open**. Earlier versions have no agent
-connection, so until 1.7 is released this plugin has nothing to talk to. Your agent reaches the
+You need **Cubric Studio 2.0 or newer**, installed and **open**. Earlier versions have no agent
+connection, so until 2.0 is released this plugin has nothing to talk to. Your agent reaches the
 app at `http://127.0.0.1:3000/mcp`, on your own computer only.
 
 ## Install
