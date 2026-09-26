@@ -12,9 +12,12 @@ You need Cubric Studio installed and **open**. Your agent talks to it at
 **Claude Code**
 
 ```
-/plugin marketplace add MadPonyInteractive/cubric-studio-agents
+/plugin marketplace add https://github.com/MadPonyInteractive/cubric-studio-agents.git
 /plugin install cubric-studio@cubric-studio
 ```
+
+Use the full `https://` address: the short `MadPonyInteractive/cubric-studio-agents` form clones
+over SSH, which fails unless you have a GitHub SSH key set up.
 
 **Codex**
 
