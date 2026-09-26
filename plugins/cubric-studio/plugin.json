@@ -1,0 +1,5 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "cubric-studio",
+  "description": "Make images and video in the Cubric Studio app on this computer."
+}
