@@ -28,7 +28,7 @@ codex plugin add cubric-studio@cubric-studio
 ```
 
 **Claude Desktop**: download
-[cubric-studio.mcpb](https://github.com/MadPonyInteractive/Cubric-Studio/releases/latest/download/cubric-studio.mcpb)
+[cubric-studio.mcpb](https://github.com/MadPonyInteractive/cubric-studio-agents/releases/latest/download/cubric-studio.mcpb)
 and double-click it.
 
 **Antigravity**: download this repository (Code > Download ZIP), copy the

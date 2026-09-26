@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.MadPonyInteractive/cubric-studio",
+  "title": "Cubric Studio",
+  "description": "Make images, video and GIFs in the Cubric Studio desktop app. Needs Cubric Studio 2.0+.",
+  "repository": {
+    "url": "https://github.com/MadPonyInteractive/cubric-studio-agents",
+    "source": "github"
+  },
+  "websiteUrl": "https://cubric.studio",
+  "version": "0.2.0",
+  "packages": [
+    {
+      "registryType": "mcpb",
+      "identifier": "https://github.com/MadPonyInteractive/cubric-studio-agents/releases/download/mcpb-v0.2.0/cubric-studio.mcpb",
+      "version": "0.2.0",
+      "fileSha256": "45ae25d00c976d32e54dbbd8445d1626ce66b9f9a483caa7afddbed2921c6cd8",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
