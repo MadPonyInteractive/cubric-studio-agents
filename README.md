@@ -10,6 +10,10 @@ app at `http://127.0.0.1:3000/mcp`, on your own computer only.
 
 ## Install
 
+**The easy way**: in Cubric Studio, open **Settings > Connect an agent** and press **Connect**
+next to your agent. The app runs the steps below for you. The manual steps work on Windows,
+macOS and Linux.
+
 **Claude Code**
 
 ```
@@ -27,9 +31,11 @@ codex plugin marketplace add MadPonyInteractive/cubric-studio-agents
 codex plugin add cubric-studio@cubric-studio
 ```
 
-**Claude Desktop**: download
-[cubric-studio.mcpb](https://github.com/MadPonyInteractive/cubric-studio-agents/releases/latest/download/cubric-studio.mcpb)
-and double-click it.
+**Claude Desktop** (Windows and macOS; there is no Claude Desktop for Linux): download
+[cubric-studio.mcpb](https://github.com/MadPonyInteractive/cubric-studio-agents/releases/latest/download/cubric-studio.mcpb),
+then in Claude Desktop open **Settings > Extensions** and drag the file onto that page. Claude
+shows what it installs and asks you to confirm. Double-clicking the file only works where your
+computer already opens `.mcpb` files with Claude.
 
 **Antigravity**: download this repository (Code > Download ZIP), copy the
 `plugins/cubric-studio` folder into `%USERPROFILE%\.gemini\config\plugins\` (on macOS and Linux,
@@ -37,6 +43,11 @@ and double-click it.
 
 **ChatGPT**: use Codex, which comes with your ChatGPT plan. The ChatGPT chat window runs in the
 cloud and cannot reach apps on your computer.
+
+**Gemini**: use Antigravity, Google's agent app for your computer (install steps above). It is
+free to start with the Google account you use for Gemini, no subscription needed; a Google AI Pro
+or Ultra plan gives it more use. The Gemini app and gemini.google.com run in the cloud and cannot
+reach apps on your computer.
 
 ## What your agent can do
 
