@@ -6,6 +6,12 @@ gallery as a real card, with its prompt and settings saved, ready to edit by han
 
 You need **Cubric Studio 2.0 or newer**, installed and **open** on the same computer as Claude.
 
+It works in **Claude Code** (the terminal, or the Code tab of the Claude desktop app) and in
+Codex. In Claude chat, on the web, in the desktop app or on a phone, the plugin loads without its
+tools, so Claude cannot reach the app from there. For chat in the Claude desktop app, add the
+Cubric Studio extension:
+[install steps](https://github.com/MadPonyInteractive/cubric-studio-agents#install).
+
 ## What it does
 
 The plugin gives Claude the app's own tools: list models and read their prompting guides, create
