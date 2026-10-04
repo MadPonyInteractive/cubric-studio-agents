@@ -2,7 +2,7 @@
   "mcpServers": {
     "cubric-studio": {
       "type": "http",
-      "url": "${user_config.app_url}"
+      "url": "http://127.0.0.1:3000/mcp"
     }
   }
 }
