@@ -8,13 +8,13 @@
     "source": "github"
   },
   "websiteUrl": "https://cubric.studio",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "packages": [
     {
       "registryType": "mcpb",
-      "identifier": "https://github.com/MadPonyInteractive/cubric-studio-agents/releases/download/mcpb-v0.3.0/cubric-studio.mcpb",
-      "version": "0.3.0",
-      "fileSha256": "3500fc2b3217626930612416d5f2ea7cfb4d6798b8b74a99f51e54941409d6f7",
+      "identifier": "https://github.com/MadPonyInteractive/cubric-studio-agents/releases/download/mcpb-v0.3.2/cubric-studio.mcpb",
+      "version": "0.3.2",
+      "fileSha256": "cff13def93cadf75011665d0fd4a3e5a9128630a10e8527965d6ae945f4eadae",
       "transport": {
         "type": "stdio"
       }
