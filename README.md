@@ -4,10 +4,10 @@ Let your AI agent make images, video and GIFs in [Cubric Studio](https://cubric.
 desktop app on your computer. Ask Claude, Codex or Antigravity for "an image of a red bicycle in
 a new project" and it lands in your gallery as a real card, with its prompt and settings saved.
 
-You need **Cubric Studio 2.0 or newer**, installed and **open**. Earlier versions have no agent
-connection. Your agent reaches the app at `http://127.0.0.1:3000/mcp`, on your own computer only;
-in Claude Code, the plugin's **Cubric Studio address** setting changes it if you started the app
-on another port.
+You need **Cubric Studio 2.2.3 or newer**, installed and **open**. Your agent reaches the app at
+`http://127.0.0.1:24300/mcp`, on your own computer only, even when another program holds the
+app's usual port. Cubric Studio 2.0 to 2.2.2 answer at `http://127.0.0.1:3000/mcp` instead: put
+that address in the plugin's **Cubric Studio address** setting (Claude Code), or update the app.
 
 ## Install
 

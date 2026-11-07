@@ -1,7 +1,7 @@
 {
   "name": "cubric-studio",
   "displayName": "Cubric Studio",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Make images and video in the Cubric Studio app on this computer.",
   "author": {
     "name": "Mad Pony Interactive",
@@ -16,11 +16,11 @@
   "supportUrl": "https://github.com/MadPonyInteractive/cubric-studio-agents/issues",
   "privacyPolicyUrl": "https://cubric.studio/privacy/",
   "userConfig": {
-    "app_url": {
+    "studio_url": {
       "type": "string",
       "title": "Cubric Studio address",
-      "description": "Where the Cubric Studio app listens on this computer. Keep the default unless you started the app on another port.",
-      "default": "http://127.0.0.1:3000/mcp"
+      "description": "Where the Cubric Studio app listens on this computer. Keep the default: the app always answers agents here, whatever port it moved to.",
+      "default": "http://127.0.0.1:24300/mcp"
     }
   }
 }

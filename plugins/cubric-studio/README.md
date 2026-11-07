@@ -25,8 +25,8 @@ Flows, look at the results, rename cards, and make and edit GIFs.
 ## What it runs and connects to
 
 One MCP server, reached over HTTP at the address the Cubric Studio app listens on, on your own
-computer: `http://127.0.0.1:3000/mcp` unless you change the **Cubric Studio address** setting
-(only needed if you started the app on another port). The plugin runs no program of its own,
+computer: `http://127.0.0.1:24300/mcp`. The app answers agents there even when another program
+holds its usual port, so the **Cubric Studio address** setting can stay as it is. The plugin runs no program of its own,
 downloads nothing, and connects to no other address. A skill tells Claude how to use the tools.
 
 ## Privacy Policy
