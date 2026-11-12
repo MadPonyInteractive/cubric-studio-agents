@@ -58,7 +58,10 @@ make and edit GIFs.
 
 - **Paid cloud models ask first.** The agent is told the price and must confirm it before
   anything is billed. Local models are free and never ask.
-- **Nothing deletes.** No tool removes a project, a card or a file, and none installs a model.
+- **Downloads ask first.** Installing a model, a Flow or the ComfyUI engine tells the agent the
+  download size or the folder, and the agent must confirm it with you before anything downloads.
+- **Nothing you made is deleted.** No tool removes a project, a card or a file. The one delete
+  tool removes a saved routine (a chain of steps), and the agent is told to use it only when you ask.
 
 ## Privacy
 

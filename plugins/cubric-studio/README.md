@@ -20,7 +20,10 @@ Flows, look at the results, rename cards, and make and edit GIFs.
 
 - **Paid cloud models ask first.** Claude is told the price and must confirm it with you before
   anything is billed. Local models are free and never ask.
-- **Nothing deletes.** No tool removes a project, a card or a file, and none installs a model.
+- **Downloads ask first.** Installing a model, a Flow or the ComfyUI engine tells Claude the
+  download size or the folder, and Claude must confirm it with you before anything downloads.
+- **Nothing you made is deleted.** No tool removes a project, a card or a file. The one delete
+  tool removes a saved routine (a chain of steps), and Claude is told to use it only when you ask.
 
 ## What it runs and connects to
 
