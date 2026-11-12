@@ -1,8 +1,8 @@
 {
   "mcpServers": {
     "cubric-studio": {
-      "type": "http",
-      "url": "http://127.0.0.1:24300/mcp"
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/server/index.js"]
     }
   }
 }

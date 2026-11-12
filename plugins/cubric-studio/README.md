@@ -24,10 +24,12 @@ Flows, look at the results, rename cards, and make and edit GIFs.
 
 ## What it runs and connects to
 
-One MCP server, reached over HTTP at the address the Cubric Studio app listens on, on your own
-computer: `http://127.0.0.1:24300/mcp`. The app answers agents there even when another program
-holds its usual port, so the **Cubric Studio address** setting can stay as it is. The plugin runs no program of its own,
-downloads nothing, and connects to no other address. A skill tells Claude how to use the tools.
+One small MCP server, `server/index.js`, started with `node` (Node.js 18 or newer must be
+installed). It is a bridge with no dependencies: it passes each message from Claude to the
+Cubric Studio app on your own computer, at `http://127.0.0.1:24300/mcp` (or `127.0.0.1:3000`
+for an app older than 2.2.3), and passes the app's answer back. When the app is closed it says
+so and offers one `status` tool until the app opens. The bridge downloads nothing and connects
+to no other address. A skill tells Claude how to use the tools.
 
 ## Privacy Policy
 
